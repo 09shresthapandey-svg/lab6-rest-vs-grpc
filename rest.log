@@ -1,0 +1,28 @@
+nohup: ignoring input
+ * Serving Flask app 'rest-server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.88.0.3:5000
+[33mPress CTRL+C to quit[0m
+/home/shpa1747/lab6-rest-vs-grpc/rest-server.py:19: DeprecationWarning: keys will default to True in jsonpickle 5.0.0
+  response_pickled = jsonpickle.encode(response)
+127.0.0.1 - - [14/Oct/2026 20:55:49] "POST /api/add/5/10 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Oct/2026 20:55:49] "POST /api/add/5/10 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Oct/2026 20:55:49] "POST /api/add/5/10 HTTP/1.1" 200 -
+/home/shpa1747/lab6-rest-vs-grpc/rest-server.py:33: DeprecationWarning: keys will default to True in jsonpickle 5.0.0
+  response_pickled = jsonpickle.encode(response)
+127.0.0.1 - - [14/Oct/2026 20:55:49] "POST /api/rawimage HTTP/1.1" 200 -
+127.0.0.1 - - [14/Oct/2026 20:55:49] "POST /api/rawimage HTTP/1.1" 200 -
+127.0.0.1 - - [14/Oct/2026 20:55:49] "POST /api/rawimage HTTP/1.1" 200 -
+/home/shpa1747/lab6-rest-vs-grpc/rest-server.py:44: DeprecationWarning: keys will default to True in jsonpickle 5.0.0
+  response_pickled = jsonpickle.encode(response)
+127.0.0.1 - - [14/Oct/2026 20:55:50] "POST /api/dotproduct HTTP/1.1" 200 -
+127.0.0.1 - - [14/Oct/2026 20:55:50] "POST /api/dotproduct HTTP/1.1" 200 -
+127.0.0.1 - - [14/Oct/2026 20:55:50] "POST /api/dotproduct HTTP/1.1" 200 -
+/home/shpa1747/lab6-rest-vs-grpc/rest-server.py:58: DeprecationWarning: keys will default to True in jsonpickle 5.0.0
+  response_pickled = jsonpickle.encode(response)
+127.0.0.1 - - [14/Oct/2026 20:55:50] "POST /api/jsonimage HTTP/1.1" 200 -
+127.0.0.1 - - [14/Oct/2026 20:55:50] "POST /api/jsonimage HTTP/1.1" 200 -
+127.0.0.1 - - [14/Oct/2026 20:55:50] "POST /api/jsonimage HTTP/1.1" 200 -
